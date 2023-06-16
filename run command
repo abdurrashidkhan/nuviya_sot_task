@@ -4,4 +4,6 @@ firebase login
 firebase init
 firebase deploy
 # live 
-https://nuviya-soft-task.web.app/
+https://648c00100627fa36582a0dfc--brilliant-pegasus-f8b20d.netlify.app/
+# deploy site 
+https://app.netlify.com/sites/brilliant-pegasus-f8b20d/deploys/648c00100627fa36582a0dfc

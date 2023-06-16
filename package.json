@@ -1,4 +1,14 @@
 {
+  "name": "nuviya_sot_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "firebase.init.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input/style.css -o ./css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.2"
   }

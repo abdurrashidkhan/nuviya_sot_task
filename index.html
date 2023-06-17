@@ -6,6 +6,7 @@
     <title>Document</title>
     <!-- style sheet -->
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.min.css" />
   </head>
   <body>
     <!-- navbar  -->
@@ -19,6 +20,7 @@
               class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               aria-controls="mobile-menu"
               aria-expanded="false"
+              onclick="mobileMenuToggle()"
             >
               <span class="sr-only">Open main menu</span>
               <!--
@@ -61,6 +63,7 @@
               </svg>
             </button>
           </div>
+          <!-- flex-1 items-center justify-center sm:items-stretch sm:justify-start -->
           <div
             class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"
           >
@@ -76,8 +79,8 @@
                 alt="Your Company"
               />
             </div>
-            <div class="hidden sm:ml-6 sm:block">
-              <div class="flex space-x-4">
+            <div class="hidden sm:ml-6 sm:block " style="margin: auto;">
+              <div class="flex  space-x-4">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <a
                   href="#"
@@ -136,7 +139,7 @@
                   id="user-menu-button"
                   aria-expanded="false"
                   aria-haspopup="true"
-                  onclick="userProfleButton(true)"
+                  onclick="userProfleButton()"
                 >
                   <span class="sr-only">Open user menu</span>
                   <img
@@ -158,7 +161,7 @@
                   To: "transform opacity-0 scale-95"
               -->
               <div
-                class="absolute hidden right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+                class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
                 role="menu"
                 aria-orientation="vertical"
                 aria-labelledby="user-menu-button"
@@ -197,7 +200,7 @@
       </div>
 
       <!-- Mobile menu, show/hide based on menu state. -->
-      <div class="sm:hidden" id="mobile-menu">
+      <div class="sm:hidden hidden" id="mobile-menu">
         <div class="space-y-1 px-2 pb-3 pt-2">
           <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
           <a

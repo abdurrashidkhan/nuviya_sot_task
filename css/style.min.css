@@ -45,10 +45,52 @@ option {
   -moz-transform: translate(-50%, 50%);
   -ms-transform: translate(-50%, 50%);
   -o-transform: translate(-50%, 50%);
-  background-color: #026E5F;
+  background-color: #026e5f;
   width: 80%;
 }
+/* rooms card */
+#rooms_photo_1 {
+  position: relative;
+  background-image: url("../img/rooms/1.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 25px 24px 35px -18px rgba(2,110,95,0.63);
+  -moz-box-shadow: 25px 24px 35px -18px rgba(2,110,95,0.63);
+  box-shadow: 25px 24px 35px -18px rgba(2,110,95,0.63);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  overflow: hidden;
 
+}
+#rooms_photo_1 .room_content{
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  transform: translateY(95%);
+  color: #fff;
+  background-color: #000000af;
+  transition: all ease-in-out .5s;
+  -webkit-transition: all ease-in-out .5s;
+  -moz-transition: all ease-in-out .5s;
+  -ms-transition: all ease-in-out .5s;
+  -o-transition: all ease-in-out .5s;
+  -webkit-transform: translateY(95%);
+  -moz-transform: translateY(95%);
+  -ms-transform: translateY(95%);
+  -o-transform: translateY(95%);
+}
+#rooms_photo_1:hover .room_content{
+  transform: translateY(0%);
+  -webkit-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  -o-transform: translateY(0%);
+}
 /* responsive */
 @media only screen and (max-width: 1200px) {
   #banner_bottom {
@@ -60,5 +102,5 @@ option {
     -moz-transform: translate(-50%, 50%);
     -ms-transform: translate(-50%, 50%);
     -o-transform: translate(-50%, 50%);
-}
+  }
 }

@@ -10,7 +10,7 @@
   </head>
   <body>
     <!-- navbar  -->
-    <nav class="bg-[#026E5F]">
+    <nav class="bg-[#026E5F] shadow-2xl">
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -84,7 +84,7 @@
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:hover:bg-[#0a161527] hover:text-white" -->
                 <a
                   href="#"
-                  class=" text-white hover:bg-[#0a161527] block rounded-md px-3 py-2 text-base font-medium"
+                  class="text-white hover:bg-[#0a161527] block rounded-md px-3 py-2 text-base font-medium"
                   aria-current="page"
                   >Home</a
                 >
@@ -277,6 +277,332 @@
         </div>
       </div>
     </nav>
+    <!-- banner section -->
+    <section id="benner" class="relative">
+      <div class="container mx-auto px-2 py-16 pb-[8rem]">
+        <div class="">
+          <!-- banner content -->
+          <div class="text-center">
+            <h1
+              class="font-[Tangerine] text-4xl sm:text-5xl sm:text-[6rem] lg:text-[6rem] xl:text-[6rem] text-[#fff]"
+            >
+              Enjoy Your Dream Vacation
+            </h1>
+            <p class="sm:text-[20px] text-slate-200 py-5 mb-5">
+              “I feel great joy for you, my dear friend, because you're about to
+              go on vacation. I wish you a wonderful trip, rest a lot and have
+              lots of fun. Enjoy your vacation!”
+            </p>
+          </div>
+          <!-- booking  -->
+          <div
+            class="text-center mt-10 w-full sm:w-[100%] md:w-[90%] lg:w-[70%] my-8 rounded"
+            style="margin: auto;height: auto;background-color: #caf5ef; !important"
+          >
+            <ul class="sm:flex items-center justify-center">
+              <li style="width: 100%">
+                <button
+                  style="width: 100%; color: #000"
+                  class="border-b-2 sm:border-b-0 sm:border-r-2 w-full hover:text-slate-200 bg-[#caf5ef] px-5 py-2 shadow-2xl hover:bg-[#008371] ease-in-out duration-700 text-xs sm:text-base rounded-tl"
+                >
+                  Booking
+                </button>
+              </li>
+              <li style="width: 100%">
+                <button
+                  style="width: 100%; color: #fff"
+                  class="border-b-2 sm:border-b-0 sm:border-r-2 w-full hover:text-slate-200 bg-[#026E5F] px-5 py-2 shadow-2xl hover:bg-[#008371] ease-in-out duration-700 text-xs sm:text-base"
+                >
+                  Book Restaurant
+                </button>
+              </li>
+              <li style="width: 100%">
+                <button
+                  style="width: 100%; color: #fff"
+                  class="w-full hover:text-slate-200 bg-[#026E5F] px-5 py-2 shadow-2xl hover:bg-[#008371] ease-in-out duration-700 text-xs sm:text-base rounded-tr"
+                >
+                  Booking Car
+                </button>
+              </li>
+            </ul>
+            <!-- radio button  -->
+            <div class="py-5">
+              <ul
+                class="sm:flex items-center gap-10 justify-center"
+                style="color: #000"
+              >
+                <li class="text-slate-700">
+                  <input
+                    type="radio"
+                    class="text-slate-700 text-xs sm:text-base hover:cursor-pointer"
+                    style="margin-right: 0.5rem"
+                  />Couple Room
+                </li>
+                <li class="text-slate-700">
+                  <input
+                    type="radio"
+                    class="text-slate-700 text-xs sm:text-base hover:cursor-pointer"
+                    style="margin-right: 0.5rem"
+                  />Booking Room
+                </li>
+                <li class="text-slate-700">
+                  <input
+                    type="radio"
+                    class="text-slate-700 text-xs sm:text-base hover:cursor-pointer"
+                    style="margin-right: 0.5rem"
+                  />Multiple Family Room
+                </li>
+              </ul>
+            </div>
+            <!-- booking input -->
+            <div
+              class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 items-center justify-center justify-items-center pb-10 px-2 relative"
+            >
+              <div class="py-1 w-[95%]">
+                <input
+                  type="text"
+                  class="w-full placeholder:text-slate-600 focus:outline-none text-slate-700 px-2 py-1 rounded shadow-2xl bg-transparent border-[#026E5F] border-[1px]"
+                  placeholder="Enter Your Name"
+                  required
+                />
+              </div>
+              <div class="py-1 w-[95%]">
+                <input
+                  type="number"
+                  class="w-full placeholder:text-slate-600 focus:outline-none text-slate-700 px-2 py-1 rounded shadow-2xl bg-transparent border-[#026E5F] border-[1px]"
+                  placeholder="Enter Your Number"
+                  required
+                />
+              </div>
+              <div class="py-1 w-[95%]">
+                <input
+                  type="email"
+                  class="w-full placeholder:text-slate-600 focus:outline-none text-slate-700 px-2 py-1 rounded shadow-2xl bg-transparent border-[#026E5F] border-[1px]"
+                  placeholder="Enter Your E-mail"
+                  required
+                />
+              </div>
+              <div class="py-1 w-[95%]">
+                <input
+                  type="text"
+                  class="w-full placeholder:text-slate-600 focus:outline-none text-slate-700 px-2 py-1 rounded shadow-2xl bg-transparent border-[#026E5F] border-[1px]"
+                  placeholder="PRESENT ADDRESS"
+                  required
+                />
+              </div>
+              <div class="py-1 w-[95%]">
+                <input
+                  type="number"
+                  class="w-full placeholder:text-slate-600 focus:outline-none text-slate-700 px-2 py-1 rounded shadow-2xl bg-transparent border-[#026E5F] border-[1px]"
+                  placeholder="NID NUMBER"
+                  required
+                />
+              </div>
+              <div class="py-1 w-[95%]">
+                <input
+                  type="text"
+                  class="w-full placeholder:text-slate-600 focus:outline-none text-slate-700 px-2 py-1 rounded shadow-2xl bg-transparent border-[#026E5F] border-[1px]"
+                  placeholder="CHECK IN"
+                  onfocus="(this.type='date')"
+                  required
+                />
+              </div>
+              <div class="py-1 w-[95%]">
+                <input
+                  type="text"
+                  class="w-full placeholder:text-slate-600 focus:outline-none text-slate-700 px-2 py-1 rounded shadow-2xl bg-transparent border-[#026E5F] border-[1px]"
+                  placeholder="CHECK OUT"
+                  required
+                  onfocus="(this.type='date')"
+
+                />
+              </div>
+              <div class="py-1 w-[95%]">
+                <!-- <input
+                  type="text"
+                  class="placeholder:text-slate-600 focus:outline-none text-slate-700 px-2 py-1 rounded shadow-2xl bg-transparent border-[#026E5F] border-[1px]"
+                  placeholder="Enter Your Name"
+                  required
+                /> -->
+                <!-- <label for="cars">Choose a car:</label> -->
+
+                <select
+                  class="w-full h-auto bg-transparent text-slate-600 border-[#026E5F] border-[1px] py-2 px-2 rounded"
+                >
+                  <option
+                    class="w-full h-auto bg-transparent"
+                    selected
+                    value="MARRITAL STATUS"
+                  >
+                    MARRITAL STATUS
+                  </option>
+                  <option class="w-full h-auto bg-transparent" value="2">
+                    Two
+                  </option>
+                  <option class="w-full h-auto bg-transparent" value="3">
+                    Three
+                  </option>
+                  <option class="w-full h-auto bg-transparent" value="4">
+                    Four
+                  </option>
+                </select>
+              </div>
+              <div class="py-1 w-[95%]">
+                <select
+                  class="w-full h-auto bg-transparent text-slate-600 border-[#026E5F] border-[1px] py-2 px-2 rounded"
+                >
+                  <option
+                    class="w-full h-auto bg-transparent"
+                    selected
+                    value="MARRITAL STATUS"
+                  >
+                    MARRITAL STATUS
+                  </option>
+                  <option class="w-full h-auto bg-transparent" value="2">
+                    Two
+                  </option>
+                  <option class="w-full h-auto bg-transparent" value="3">
+                    Three
+                  </option>
+                  <option class="w-full h-auto bg-transparent" value="4">
+                    Four
+                  </option>
+                </select>
+              </div>
+              <div class="py-1 w-[95%]">
+                <select
+                  class="w-full h-auto bg-transparent text-slate-600 border-[#026E5F] border-[1px] py-2 px-2 rounded"
+                >
+                  <option
+                    class="w-full h-auto bg-transparent"
+                    selected
+                    value="MARRITAL STATUS"
+                  >
+                    MARRITAL STATUS
+                  </option>
+                  <option class="w-full h-auto bg-transparent" value="2">
+                    Two
+                  </option>
+                  <option class="w-full h-auto bg-transparent" value="3">
+                    Three
+                  </option>
+                  <option class="w-full h-auto bg-transparent" value="4">
+                    Four
+                  </option>
+                </select>
+              </div>
+              <div class="py-1 w-[95%]">
+                <select
+                  class="w-full h-auto bg-transparent text-slate-600 border-[#026E5F] border-[1px] py-2 px-2 rounded"
+                >
+                  <option
+                    class="w-full h-auto bg-transparent"
+                    selected
+                    value="MARRITAL STATUS"
+                  >
+                    MARRITAL STATUS
+                  </option>
+                  <option class="w-full h-auto bg-transparent" value="2">
+                    Two
+                  </option>
+                  <option class="w-full h-auto bg-transparent" value="3">
+                    Three
+                  </option>
+                  <option class="w-full h-auto bg-transparent" value="4">
+                    Four
+                  </option>
+                </select>
+              </div>
+              <div class="py-1 w-[95%]">
+                <select
+                  class="w-full h-auto bg-transparent text-slate-600 border-[#026E5F] border-[1px] py-2 px-2 rounded"
+                >
+                  <option
+                    class="w-full h-auto bg-transparent"
+                    selected
+                    value="MARRITAL STATUS"
+                  >
+                    MARRITAL STATUS
+                  </option>
+                  <option class="w-full h-auto bg-transparent" value="2">
+                    Two
+                  </option>
+                  <option class="w-full h-auto bg-transparent" value="3">
+                    Three
+                  </option>
+                  <option class="w-full h-auto bg-transparent" value="4">
+                    Four
+                  </option>
+                </select>
+              </div>
+              <div class="py-1 w-[95%]">
+                <select
+                  class="w-full h-auto bg-transparent text-slate-600 border-[#026E5F] border-[1px] py-2 px-2 rounded"
+                >
+                  <option
+                    class="w-full h-auto bg-transparent"
+                    selected
+                    value="MARRITAL STATUS"
+                  >
+                    MARRITAL STATUS
+                  </option>
+                  <option class="w-full h-auto bg-transparent" value="2">
+                    Two
+                  </option>
+                  <option class="w-full h-auto bg-transparent" value="3">
+                    Three
+                  </option>
+                  <option class="w-full h-auto bg-transparent" value="4">
+                    Four
+                  </option>
+                </select>
+              </div>
+              <div class="py-1 w-[95%]">
+                <input
+                  type="text"
+                  class="w-full placeholder:text-slate-600 focus:outline-none text-slate-700 px-2 py-1 rounded shadow-2xl bg-transparent border-[#026E5F] border-[1px]"
+                  placeholder="Total Price : 3333 Taka"
+                  required
+                />
+              </div>
+              <button
+                class="absolute text-xl px-8 py-2 bottom-[-10%] left-50 bg-[#026E5F] text-slate-200 rounded shadow-2xl hover:tracking-[2px] ease-in-out duration-700"
+              >
+                Booking Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="hidden md:block">
+          <div id="banner_bottom" class="p-4 rounded shadow-2xl">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-center justify-between gap-5">
+              <div class="flex gap-2 items-center justify-center">
+                <img class="w-[40px]" src="./img/icons/english-breakfast.png" alt="loading">
+                <p class="text-slate-200 text-lg">Complementary Breakfast </p>
+              </div>
+              <div class="flex gap-2 items-center justify-center">
+                <img class="w-[50px]" src="./img/icons/job.png" alt="loading">
+                <p class="text-slate-200 text-lg">City Tour Guide </p>
+              </div>
+              <div class="flex gap-2 items-center justify-center">
+                <img class="w-[40px]" src="./img/icons/beach.png" alt="loading">
+                <p class="text-slate-200 text-lg">Beach BBQ
+                  Party</p>
+              </div>
+              <div class="flex gap-2 items-center justify-center">
+                <img class="w-[60px]" src="./img/icons/airport.png" alt="loading">
+                <p class="text-slate-200 text-lg">Airport Pickup</p>
+              </div>
+              <div class="flex gap-4 items-center justify-center">
+                <img class="w-[30px]" src="./img/icons/wifi.png" alt="loading">
+                <p class="text-slate-200 text-lg">Wifi Internet</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- javascript -->
     <script src="./js/app.min.js"></script>
   </body>

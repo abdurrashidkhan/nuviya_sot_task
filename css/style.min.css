@@ -1,9 +1,64 @@
-#profileContent ,
-#mobile-menu{
+/* font  */
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Exo+2:wght@400;600&family=Tangerine:wght@400;700&display=swap");
+body {
+  /* font-family: "Caveat", cursive;
+  font-family: "Tangerine", cursive; */
+  font-family: "Exo 2", sans-serif;
+}
+
+#profileContent,
+#mobile-menu {
   transition: all ease-in-out 1s;
   -webkit-transition: all ease-in-out 1s;
   -moz-transition: all ease-in-out 1s;
   -ms-transition: all ease-in-out 1s;
   -o-transition: all ease-in-out 1s;
   display: none;
+}
+#benner {
+  background-image: linear-gradient(135deg, #026e6094, #026e6034),
+    url("../img/rooms/romm1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  color: #026e6000;
+}
+
+/* select & option  */
+select,
+option {
+  width: 100%;
+}
+option {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#banner_bottom {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  -webkit-transform: translate(-50%, 50%);
+  -moz-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  -o-transform: translate(-50%, 50%);
+  background-color: #026E5F;
+  width: 80%;
+}
+
+/* responsive */
+@media only screen and (max-width: 1200px) {
+  #banner_bottom {
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+}
 }

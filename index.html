@@ -13,7 +13,7 @@
     <nav class="bg-[#026E5F] shadow-2xl">
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
-          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+          <div class="absolute inset-y-0 left-0 flex items-center lg:hidden">
             <!-- Mobile menu button-->
             <button
               type="button"
@@ -65,7 +65,7 @@
           </div>
           <!-- flex-1 items-center justify-center sm:items-stretch sm:justify-start -->
           <div
-            class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"
+            class="flex flex-1 items-center justify-center lg:items-stretch lg:justify-start"
           >
             <div class="flex flex-shrink-0 items-center">
               <img
@@ -79,7 +79,7 @@
                 alt="loading"
               />
             </div>
-            <div class="hidden sm:ml-6 sm:block" style="margin: auto">
+            <div class="hidden sm:ml-6 lg:block" style="margin: auto">
               <div class="flex space-x-4">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:hover:bg-[#0a161527] hover:text-white" -->
                 <a
@@ -779,11 +779,36 @@
               </div>
             </div>
             </div>
+            <div class="text-center my-10">
+              <button class="text-center bg-[#007061] text-xl px-10 py-1 text-slate-200 rounded shadow-2xl hover:tracking-[2px] duration-700 ease-in-out">See more</button>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- room section end -->
+    <!-- slider start -->
+    <section>
+      <div class="container mx-auto px-2 py-10">
+        <div class="slider relative">
+          <div class="w-[50%] text-slate-200 absolute top-[30%] left-[2%]">
+            <h1 class="text-5xl ">50% Off</h1>
+            <p id="text" class="text-lg py-5">Text 1</p>
+            <button class="text-center bg-[#007061] text-xl px-10 py-1 text-slate-200 rounded shadow-2xl hover:tracking-[2px] duration-700 ease-in-out">Booking</button>
+          </div>
+          <div class="">
+            <button class="absolute top-[-15%] left-[2%]" id="prevBtn"> 
+            <img class="w-[30px] h-auto shadow-2xl" src="./img/icons/3.png" alt="">  
+            </button>
+            <button class="absolute top-[45%] right-[2%]" id="nextBtn"> 
+              <img class="w-[30px] h-auto shadow-2xl " src="./img/icons/4.png" alt="">  
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <!-- slider end -->
     <!-- javascript -->
     <script src="./js/app.min.js"></script>
   </body>

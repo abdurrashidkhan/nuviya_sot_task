@@ -56,35 +56,34 @@ option {
   height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-box-shadow: 25px 24px 35px -18px rgba(2,110,95,0.63);
-  -moz-box-shadow: 25px 24px 35px -18px rgba(2,110,95,0.63);
-  box-shadow: 25px 24px 35px -18px rgba(2,110,95,0.63);
+  -webkit-box-shadow: 25px 24px 35px -18px rgba(2, 110, 95, 0.63);
+  -moz-box-shadow: 25px 24px 35px -18px rgba(2, 110, 95, 0.63);
+  box-shadow: 25px 24px 35px -18px rgba(2, 110, 95, 0.63);
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   overflow: hidden;
-
 }
-#rooms_photo_1 .room_content{
+#rooms_photo_1 .room_content {
   position: absolute;
   bottom: 0%;
   left: 0%;
   transform: translateY(100%);
   color: #fff;
   background-color: #000000af;
-  transition: all ease-in-out .5s;
-  -webkit-transition: all ease-in-out .5s;
-  -moz-transition: all ease-in-out .5s;
-  -ms-transition: all ease-in-out .5s;
-  -o-transition: all ease-in-out .5s;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
   -webkit-transform: translateY(100%);
   -moz-transform: translateY(100%);
   -ms-transform: translateY(100%);
   -o-transform: translateY(100%);
 }
-#rooms_photo_1:hover .room_content{
+#rooms_photo_1:hover .room_content {
   transform: translateY(0%);
   -webkit-transform: translateY(0%);
   -moz-transform: translateY(0%);
@@ -93,7 +92,8 @@ option {
 }
 /* slider */
 .slider {
-  background-image: linear-gradient(135deg, #026e5f, #026e6004),url('../img/slider.jpg');
+  background-image: linear-gradient(135deg, #026e5f, #026e6004),
+    url("../img/slider.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -108,20 +108,52 @@ option {
   padding: 1rem;
 }
 
-
-
-
-
-/* responsive */
-@media only screen and (max-width: 1200px) {
-  #banner_bottom {
-    position: absolute;
-    bottom: -5%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    -webkit-transform: translate(-50%, 50%);
-    -moz-transform: translate(-50%, 50%);
-    -ms-transform: translate(-50%, 50%);
-    -o-transform: translate(-50%, 50%);
-  }
+/* 2nd slider  */
+.slideR {
+  overflow: hidden;
+  position: relative;
 }
+
+.slidE {
+  background-color: #cccccc17;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  transition: left 9s ease-in-out;
+  -webkit-transition: left 9s ease-in-out;
+  -moz-transition: left 9s ease-in-out;
+  -ms-transition: left 9s ease-in-out;
+  -o-transition: left 9s ease-in-out;
+  box-shadow: 10px 16px 30px -5px rgba(2, 110, 95, 0.86);
+  -webkit-box-shadow: 10px 16px 30px -5px rgba(2, 110, 95, 0.86);
+  -moz-box-shadow: 10px 16px 30px -5px rgba(2, 110, 95, 0.86);
+}
+
+.slidE.active {
+  left: 0;
+  display: grid;
+}
+/* our brand  */
+.brand_slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.brand_slides {
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: transform 0.5s ease-in-out;
+  -moz-transition: transform 0.5s ease-in-out;
+  -ms-transition: transform 0.5s ease-in-out;
+  -o-transition: transform 0.5s ease-in-out;
+}
+
+.brand_slider img {
+  width: 100%;
+}
+

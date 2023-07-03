@@ -203,10 +203,10 @@ option {
   bottom: 0%;
   left: 50%;
   transform: translateX(-50%);
-  -webkit-transform:;
-  -moz-transform:;
-  -ms-transform:;
-  -o-transform:;
+  -webkit-transform: ;
+  -moz-transform: ;
+  -ms-transform: ;
+  -o-transform: ;
 }
 #img1 {
   background-image: url("../img/food/1.jpg");
@@ -248,7 +248,7 @@ option {
   -ms-transform: translateY(-20%);
   -o-transform: translateY(-20%);
 }
-#img2{
+#img2 {
   background-image: url("../img/food/2.jpg");
   position: relative;
   width: 100%;
@@ -269,7 +269,7 @@ option {
   -ms-transform: translateY(-20%);
   -o-transform: translateY(-20%);
 }
-#img3{
+#img3 {
   background-image: url("../img/food/3.jpg");
   position: relative;
   width: 100%;
@@ -290,7 +290,7 @@ option {
   -ms-transform: translateY(-20%);
   -o-transform: translateY(-20%);
 }
-#img4{
+#img4 {
   background-image: url("../img/food/4.jpg");
   position: relative;
   width: 100%;
@@ -311,7 +311,7 @@ option {
   -ms-transform: translateY(-20%);
   -o-transform: translateY(-20%);
 }
-#img5{
+#img5 {
   background-image: url("../img/food/5.jpg");
   position: relative;
   width: 100%;
@@ -332,7 +332,7 @@ option {
   -ms-transform: translateY(-20%);
   -o-transform: translateY(-20%);
 }
-#img6{
+#img6 {
   background-image: url("../img/food/6.jpg");
   position: relative;
   width: 100%;
@@ -353,7 +353,7 @@ option {
   -ms-transform: translateY(-20%);
   -o-transform: translateY(-20%);
 }
-#img7{
+#img7 {
   background-image: url("../img/food/7.jpg");
   position: relative;
   width: 100%;
@@ -373,4 +373,21 @@ option {
   -moz-transform: translateY(-20%);
   -ms-transform: translateY(-20%);
   -o-transform: translateY(-20%);
+}
+/* our clint slider */
+.clint_slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.clint_slides {
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: transform 0.5s ease-in-out;
+  -moz-transition: transform 0.5s ease-in-out;
+  -ms-transition: transform 0.5s ease-in-out;
+  -o-transition: transform 0.5s ease-in-out;
+}
+
+.clint_slider img {
+  width: 100%;
 }

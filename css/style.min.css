@@ -144,7 +144,10 @@ option {
   width: 100%;
   overflow: hidden;
 }
-
+/* .brand_slider img{
+  width: 200px;
+  height: 100px;
+} */
 .brand_slides {
   transition: transform 0.5s ease-in-out;
   -webkit-transition: transform 0.5s ease-in-out;
@@ -389,5 +392,242 @@ option {
 }
 
 .clint_slider img {
+  width: 100%;
+}
+#svg{
+  position: absolute;
+  top: -5%;
+  left: 0%;
+  width: 250px;
+  height: 390px;
+  background-color: #3eb1a19f;
+  z-index: -1;
+  border-radius: 0px 30px 30px 0px;
+  -webkit-border-radius: 0px 30px 30px 0px;
+  -moz-border-radius: 0px 30px 30px 0px;
+  -ms-border-radius: 0px 30px 30px 0px;
+  -o-border-radius: 0px 30px 30px 0px;
+}
+/* travel slider */
+.travelSlider {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.travelSlider-wrapper {
+  display: flex;
+  width: max-content;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+#car1 {
+  background-image: url("../img/travel_car/7.jpg");
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  overflow: hidden;
+}
+
+#carContent {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  left: 0%;
+  transform: translateY(100%);
+  color: #fff;
+  background-color: #000000af;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+}
+#car1:hover #carContent {
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
+}
+#car2 {
+  background-image: url("../img/travel_car/6.jpg");
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  overflow: hidden;
+}
+#car2:hover #carContent {
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
+}
+#car3 {
+  background-image: url("../img/travel_car/5.jpg");
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  overflow: hidden;
+}
+#car3:hover #carContent {
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
+}
+#car4 {
+  background-image: url("../img/travel_car/4.jpg");
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  overflow: hidden;
+}
+#car4:hover #carContent {
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
+}
+#car5 {
+  background-image: url("../img/travel_car/3.jpg");
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  overflow: hidden;
+}
+#car5:hover #carContent {
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
+}
+#car6 {
+  background-image: url("../img/travel_car/2.jpg");
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  overflow: hidden;
+}
+#car6:hover #carContent {
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
+}
+#car7 {
+  background-image: url("../img/travel_car/1.jpg");
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  overflow: hidden;
+}
+#car7:hover #carContent {
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
+}
+/* freand pack  */ 
+.sliderss {
+  background-image: linear-gradient(135deg, #007263,#026e6004 ),
+    url("../img/45_persent.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  text-align: start;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 1rem;
+}
+
+/* our partner */
+.partner_slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.partner_slides {
+  transition: transform 0.5s ease-in-out;
+  -webkit-transition: transform 0.5s ease-in-out;
+  -moz-transition: transform 0.5s ease-in-out;
+  -ms-transition: transform 0.5s ease-in-out;
+  -o-transition: transform 0.5s ease-in-out;
+}
+
+.partner_slider img {
   width: 100%;
 }

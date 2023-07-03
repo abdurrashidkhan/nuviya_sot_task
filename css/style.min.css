@@ -191,6 +191,7 @@ option {
 
 .slide {
   flex: 0 0 100%;
+  width: 50px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -199,7 +200,177 @@ option {
 
 .slider-controls {
   position: absolute;
-  bottom: 10px;
+  bottom: 0%;
   left: 50%;
   transform: translateX(-50%);
+  -webkit-transform:;
+  -moz-transform:;
+  -ms-transform:;
+  -o-transform:;
+}
+#img1 {
+  background-image: url("../img/food/1.jpg");
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  overflow: hidden;
+}
+
+#foodContent {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  left: 0%;
+  transform: translateY(100%);
+  color: #fff;
+  background-color: #000000af;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+}
+#img1:hover #foodContent {
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
+}
+#img2{
+  background-image: url("../img/food/2.jpg");
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  overflow: hidden;
+}
+#img2:hover #foodContent {
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
+}
+#img3{
+  background-image: url("../img/food/3.jpg");
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  overflow: hidden;
+}
+#img3:hover #foodContent {
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
+}
+#img4{
+  background-image: url("../img/food/4.jpg");
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  overflow: hidden;
+}
+#img4:hover #foodContent {
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
+}
+#img5{
+  background-image: url("../img/food/5.jpg");
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  overflow: hidden;
+}
+#img5:hover #foodContent {
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
+}
+#img6{
+  background-image: url("../img/food/6.jpg");
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  overflow: hidden;
+}
+#img6:hover #foodContent {
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
+}
+#img7{
+  background-image: url("../img/food/7.jpg");
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  overflow: hidden;
+}
+#img7:hover #foodContent {
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  -o-transform: translateY(-20%);
 }

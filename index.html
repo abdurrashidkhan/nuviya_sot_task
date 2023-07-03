@@ -791,7 +791,8 @@
     <section>
       <div class="container mx-auto px-2 py-10">
         <div class="slider relative">
-          <div class="w-[100%] sm:w-[50%] text-slate-200 absolute top-[5%] sm:top-[30%] left-[2%]">
+
+          <div class="w-[100%] sm:w-[50%] text-slate-200 absolute top-[5%] sm:top-[30%] left-[2%] px-2">
             <h1 class="text-3xl sm:text-5xl font-bold">50% Off</h1>
             <p id="text" class="text-lg py-5">Text 1</p>
             <button class="text-center bg-[#007061] text-xl px-10 py-1 text-slate-200 rounded shadow-2xl hover:tracking-[2px] duration-700 ease-in-out">Booking</button>
@@ -1025,15 +1026,103 @@
               <img class="w-[100%] h-[auto]  mx-auto rounded" src="./img/brand_logo/2.webp" alt="loading">
               <img class="w-[100%] h-[auto]  mx-auto rounded" src="./img/brand_logo/3.webp" alt="loading">
               <img class="w-[100%] h-[auto]  mx-auto rounded" src="./img/brand_logo/4.webp" alt="loading">
-              <img class="w-[100%] h-[auto]  mx-auto rounded" src="./img/brand_logo/5.webp" alt="loading">
-              <img class="w-[100%] h-[auto]  mx-auto rounded" src="./img/brand_logo/6.webp" alt="loading">
-              <img class="w-[100%] h-[auto]  mx-auto rounded" src="./img/brand_logo/7.webp" alt="loading">
-              <img class="w-[100%] h-[auto]  mx-auto rounded" src="./img/brand_logo/8.webp" alt="loading">
+              <img class="w-[100%] h-[auto]  mx-auto rounded hidden sm:block" src="./img/brand_logo/5.webp" alt="loading">
+              <img class="w-[100%] h-[auto]  mx-auto rounded hidden md:block" src="./img/brand_logo/6.webp" alt="loading">
+              <img class="w-[100%] h-[auto]  mx-auto rounded hidden lg:block" src="./img/brand_logo/7.webp" alt="loading">
+              <img class="w-[100%] h-[auto]  mx-auto rounded hidden xl:block" src="./img/brand_logo/8.webp" alt="loading">
             </div>
           </div>
         </div>
       </div>
     </section>
+        <!-- slider start -->
+        <section>
+          <div class="container mx-auto px-2 py-16">
+            <div class="sliders relative">
+              <div class="w-[100%] sm:w-[50%] text-slate-200 absolute top-[5%] sm:top-[30%] right-[2%] text-end px-2">
+                <h1 class="text-3xl sm:text-5xl font-bold text-end">50% Off</h1>
+                <p id="texts" class="text-lg py-5 text-end ">Text 1</p>
+                <button class="text-center bg-[#0a695b] text-xl px-10 py-1 text-slate-200 rounded shadow-2xl hover:tracking-[2px] duration-700 ease-in-out">Booking</button>
+              </div>
+              <div class="">
+                <button class="absolute top-[-15%] left-[2%]" id="prevBtns"> 
+                <img class="w-[30px] h-auto shadow-2xl" src="./img/icons/3.png" alt="">  
+                </button>
+                <button class="absolute top-[45%] right-[2%]" id="nextBtns"> 
+                  <img class="w-[30px] h-auto shadow-2xl " src="./img/icons/4.png" alt="">  
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- slider end -->
+        <!--  -->
+        <section>
+          <div class="">
+            <div class="container mx-auto px-2 py-14">
+              <div class="">
+                <h1 class="text-center text-xl sm:text-3xl py-8">Best Restaurant Dining Service</h1>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-2 items-center justify-between gap-5 ">
+                <div class="">
+                  <h1 class="text-2xl text-center sm:text-left sm:text-3xl">The Perfect Restaurant Dining <br>
+                    For You...</h1>
+                    <p class="py-8 text-lg sm:text-xl text-center sm:text-left">A restaurant is a place where you can eat a meal and pay for it. In restaurants,
+                      your food is usually served to you at your table by a waiter or waitress. The
+                      restaurant serves breakfast, lunch, and dinner. The food at the restaurant was good
+                      and the waiters were polite</p>
+                      <div class="flex items-center justify-center sm:justify-start gap-4">
+                        <button class="text-base bg-[#007263] text-slate-200 px-5 py-2 rounded hover:tracking-[1px] duration-700 ease-in-out">Cheek Menu</button>
+                        <button class="text-base bg-[#007263] text-slate-200 px-5 py-2 rounded hover:tracking-[1px] duration-700 ease-in-out">Booking Now</button>
+                      </div>
+                </div>
+                <div class="">
+                  <div class="">
+                    <div class="">
+                      <img class="w-[100%] h-[400px] rounded shadow-2xl" loading="lazy" src="./img/food.jpg" alt="Image 1">
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- anther slider -->
+        <section>
+          <div class="container mx-auto px-2 py-10">
+            <div class="">
+              <!-- section header -->
+              <div class="text-center">
+                <h1 class="text-xl sm:text-3xl">Top Dish</h1>
+              </div>
+              <div class="">
+                <!-- button group  -->
+                <div class="flex gap-5 items-center justify-center py-8">
+                  <button class="px-5 py-1 rounded shadow-2xl border-[1px] border-[#007263] hover:text-[#fff] hover:bg-[#007263] ease-in-out duration-700 ">Breakfast</button>
+                  <button class="px-5 py-1 rounded shadow-2xl border-[1px] border-[#007263] hover:text-[#fff] hover:bg-[#007263] ease-in-out duration-700 ">Lunch</button>
+                  <button class="px-5 py-1 rounded shadow-2xl border-[1px] border-[#007263] hover:text-[#fff] hover:bg-[#007263] ease-in-out duration-700 ">Diner</button>
+                </div>
+                <!-- slider -->
+                <div class="antherSlider ml-auto">
+                  <div class="slider-wrapper">
+                    <div class="slide">Slide 1</div>
+                    <div class="slide">Slide 2</div>
+                    <div class="slide">Slide 3</div>
+                    <div class="slide">Slide 4</div>
+                    <div class="slide">Slide 5</div>
+                    <div class="slide">Slide 6</div>
+                    <div class="slide">Slide 7</div>
+                  </div>
+                  <div class="slider-controls">
+                    <button class="prev-button">Previous</button>
+                    <button class="next-button">Next</button>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </section>
     <!-- javascript -->
     <script src="./js/app.min.js"></script>
   </body>
